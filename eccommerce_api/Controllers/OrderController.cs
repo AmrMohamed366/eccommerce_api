@@ -79,6 +79,7 @@ namespace eccommerce_api.Controllers
               o.CreatedDate,
               o.Id,
               items= 
+
                   o.Products.Select(p => new
                   {
                       p.ProductId,
